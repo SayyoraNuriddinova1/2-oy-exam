@@ -1,0 +1,127 @@
+#one-more {
+    border-radius: 20px;
+    background: #003459;
+    position: relative;
+    z-index: 1;
+    // height: 378px;
+    
+    
+    .one-more-friend {
+        display: flex;
+        justify-content: space-between;
+        
+        .rectangle1 {
+            position: absolute;
+            left: 0;
+            bottom:0;
+            z-index: -1;
+        }
+        .rectangle9 {
+            position: absolute;
+            height: 578px;
+            width: 900px;
+            right: 0;
+            top: 0;
+            z-index: -1;
+        }
+        
+        .girl {
+            flex:1;
+            
+        }
+        
+        .left{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 99px;
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+    }
+    
+    .left h2 {
+        color: $dark-blue;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 68px; 
+        text-transform: capitalize;
+        
+    }
+    
+    .left h5 {
+        color: $dark-blue;
+        font-family: Gilroy;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; 
+        text-transform: capitalize;
+    }
+    
+    .left p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        margin-top: 24px;
+        color: $neutral-color-80;
+        
+    }
+    
+    
+    .left a {
+        color: $dark-blue;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    
+    .left {
+        .secondary-btn a {
+            display: inline-flex;
+            padding: 10px 28px 10px 28px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 57px;
+            border: 1.5px solid $dark-blue;
+            text-decoration: none;
+            
+        }
+        
+        .secondary-btn button {
+            color: $neutral-color-0;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+            display: flex;
+            width: 170px;
+            height: 64px;
+            padding: 10px 28px 10px 28px;
+            justify-content: center;
+            gap: 10px;
+            background-color: $dark-blue;
+            margin-left: 20px;
+            border-radius:57px;
+            border-radius: 57px;
+            align-items:center;
+        }
+        
+        .secondary-btn {
+            display: flex;
+            
+        }
+    }
+}

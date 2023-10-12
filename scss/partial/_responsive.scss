@@ -1,0 +1,19 @@
+@media (max-width:834px){
+  
+    .nav {
+       display: flex;
+       justify-content: space-between;       
+       
+    }
+
+    .nav-search-icon-1 {
+            display: none;
+            
+        }
+}
+
+@media (max-width:414px){
+    container {
+        width: 100%;
+    }
+}

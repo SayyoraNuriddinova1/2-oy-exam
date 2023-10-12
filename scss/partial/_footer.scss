@@ -1,0 +1,83 @@
+#footers {
+    border-radius: 40px 40px 0px 0px;
+    background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    padding-block: 80px; 
+    height: 440px;
+    
+    
+    .footer {
+        width: 100%;
+        
+        display: flex;        
+        align-items: flex-start;
+        gap: 20px;
+        // padding: 32px;
+        border-radius: 16px;
+        background: $lightmon-yellow;
+        
+        .dark-blue-box {
+            height: 136px;
+            background-color: $dark-blue;
+            padding: 32px;
+            color: white;
+            width: 1180px;
+            border-radius: 14px;
+            align-items:center
+            
+        }
+        .footer-input-btn {
+            width: 60%;
+            border: 1px solid black;
+            padding: 10px 18px;
+            border-radius:14px;
+            background-color: white;
+            justify-content: end;
+            
+            //     height: 72px;
+            
+            
+            
+            input {
+                width: 70%;
+                height: 48px;
+                border-radius: 12px; 
+                padding: 12px 28px;
+                border: 1px solid $neutral-color-60;
+            }
+            
+            button {
+                width: 163px;
+                height: 45px;
+                padding: 10px 18px 10px 18px;
+                border-radius: 12px;
+                background: var(--primary-color-dark-blue, #003459);
+                align-items:center;
+            }
+        }
+        .border {
+            width: 1140px; 
+             border-bottom: 2px solid var(--neutral-color-20, #CCD1D2);
+            height: 5px;
+           
+            border: 3px solid $neutral-color-80;
+          
+            display: flex;
+            padding-bottom: 0px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 40px;
+        }
+        .end {
+            
+            color: $neutral-color-60;
+            font-family: SVN-Gilroy;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px; 
+            
+        }
+        
+    }
+    
+}

@@ -1,0 +1,108 @@
+#adoption {
+    border-radius: 20px;
+    background: #FFB775;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+    .adoption {
+        
+        
+        h2 {
+            color: $dark-blue;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 68px; 
+            text-transform: capitalize;
+            margin-top: 20px;
+        }
+        h5 {
+            color: $dark-blue;
+            font-family: Gilroy;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px; 
+            text-transform: capitalize;
+        }
+        
+        p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+            margin-top: 24px;
+            color: $neutral-color-80;
+            
+        }
+        
+        
+        .buttons a {
+            color: $dark-blue;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            display: inline-flex;
+            padding: 10px 28px 10px 28px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 57px;
+            border: 1.5px solid $dark-blue;
+            text-decoration: none;
+            width: 161px;
+            height: 48px;
+        }
+        
+        .buttons button {
+                color: $neutral-color-0;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; 
+                display: flex;
+                width: 161px;
+                height: 48px;
+                padding: 10px 24px 10px 24px;
+                justify-content: center;
+                gap: 10px;
+                background-color: $dark-blue;
+                margin-left: 20px;
+                border-radius:57px;
+                border-radius: 57px;
+                align-items:center;
+            }
+            
+            .buttons {
+                display: flex;
+                gap: 20px;
+                margin-top: 42px;
+                
+            }
+        }
+        .rect9 { 
+            width: 700px;
+            height: 900px;
+            position: absolute;
+            left: 0;
+            z-index: -1;
+           
+        }
+        .rect1 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        .adopt {                    
+            flex:1;
+         
+
+        }
+        
+        
+    }
+    
+    
