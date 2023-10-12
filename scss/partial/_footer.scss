@@ -2,7 +2,8 @@
     border-radius: 40px 40px 0px 0px;
     background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
     padding-block: 80px; 
-    height: 440px;
+    
+    // height: 440px;
     
     
     .footer {
@@ -16,19 +17,31 @@
         background: $lightmon-yellow;
         
         .dark-blue-box {
-            height: 136px;
+            // height: 136px;
             background-color: $dark-blue;
             padding: 32px;
             color: white;
             width: 1180px;
             border-radius: 14px;
-            align-items:center
+            align-items:center;
             
+            h5 {
+                color: var(--neutral-color-00, #FDFDFD);
+                font-family: SVN-Gilroy;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 36px;
+                text-transform: capitalize;
+            }
+            form {
+                width: 100%;
+            }
         }
         .footer-input-btn {
             width: 60%;
             border: 1px solid black;
-            padding: 10px 18px;
+            padding: 10px 28px;
             border-radius:14px;
             background-color: white;
             justify-content: end;
@@ -46,7 +59,7 @@
             }
             
             button {
-                width: 163px;
+                // width: 163px;
                 height: 45px;
                 padding: 10px 18px 10px 18px;
                 border-radius: 12px;
@@ -55,29 +68,37 @@
             }
         }
         .border {
-            width: 1140px; 
-             border-bottom: 2px solid var(--neutral-color-20, #CCD1D2);
+        
+            border-bottom: 2px solid var(--neutral-color-20, #CCD1D2);
             height: 5px;
-           
-            border: 3px solid $neutral-color-80;
-          
+            border: 1px solid $neutral-color-80;
             display: flex;
             padding-bottom: 0px;
             flex-direction: column;
             align-items: flex-start;
             gap: 40px;
-        }
-        .end {
-            
-            color: $neutral-color-60;
-            font-family: SVN-Gilroy;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 20px; 
             
         }
         
+        
     }
     
+}
+.e {
+    
+    color: $neutral-color-60;
+    font-family: SVN-Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    
+}
+.foot-item {
+    color: var(--neutral-color-100, #00171F);
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
 }
