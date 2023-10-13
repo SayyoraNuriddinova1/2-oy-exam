@@ -19,6 +19,14 @@
     border-radius: 57px;
     border: 1.5px solid $dark-blue;
     text-decoration: none;
+
+    
+}
+
+.secondary-btn:hover {
+    box-shadow: 0 0 20px $neutral-color-80;
+    background-color:#c2a368;
+    border: 2px solid #c2a368;
 }
 h3 {
     color: $dark-blue;

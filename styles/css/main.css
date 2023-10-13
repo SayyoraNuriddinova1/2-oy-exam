@@ -416,26 +416,6 @@ button,
   color: #002A48;
 }
 
-.container {
-  margin: 0 auto;
-}
-
-.spinner {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  border-top: 20px solid red;
-  animation: spin 3s both;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(1000deg);
-  }
-}
 #main-header {
   position: sticky;
   padding-top: 28px;
@@ -664,6 +644,15 @@ nav {
   flex-direction: column;
   gap: 20px;
 }
+.showcase-monito .left .buttons button:hover {
+  box-shadow: 0 0 20px #242B33;
+  background-color: #0078CD;
+}
+.showcase-monito .left .buttons a:hover {
+  box-shadow: 0 0 20px #242B33;
+  background-color: #c2a368;
+  border: 1px solid #c2a368;
+}
 .showcase-monito .left .buttons a {
   color: #002A48;
   font-size: 12px;
@@ -817,6 +806,7 @@ nav {
 }
 .new-section .new-cards .card:hover {
   transform: translateY(-10%);
+  box-shadow: 0 0 30px rgba(97, 135, 230, 0.955);
 }
 .new-section .new-cards .card-gift {
   background-color: #FCEED5;
@@ -862,6 +852,15 @@ nav {
   gap: 20px;
   border-radius: 99px;
 }
+#one-more .one-more-friend .left .buttons button:hover {
+  box-shadow: 0 0 20px #242B33;
+  background-color: #0078CD;
+}
+#one-more .one-more-friend .left .buttons a:hover {
+  box-shadow: 0 0 20px #242B33;
+  background-color: #c2a368;
+  border: 1px solid #c2a368;
+}
 #one-more .left h2 {
   color: #002A48;
   font-size: 52px;
@@ -894,7 +893,7 @@ nav {
   font-weight: 500;
   line-height: 24px;
 }
-#one-more .left .secondary-btn a {
+#one-more .left .buttons a {
   display: inline-flex;
   padding: 10px 28px 10px 28px;
   justify-content: center;
@@ -904,7 +903,7 @@ nav {
   border: 1.5px solid #002A48;
   text-decoration: none;
 }
-#one-more .left .secondary-btn button {
+#one-more .left .buttons button {
   color: #FDFDFD;
   font-size: 12px;
   font-style: normal;
@@ -922,7 +921,7 @@ nav {
   border-radius: 57px;
   align-items: center;
 }
-#one-more .left .secondary-btn {
+#one-more .left .buttons {
   display: flex;
 }
 
@@ -946,6 +945,12 @@ nav {
   border-radius: 57px;
   border: 1.5px solid #002A48;
   text-decoration: none;
+}
+
+.secondary-btn:hover {
+  box-shadow: 0 0 20px #242B33;
+  background-color: #c2a368;
+  border: 2px solid #c2a368;
 }
 
 h3 {
@@ -998,6 +1003,15 @@ p {
   line-height: 22px;
   margin-top: 24px;
   color: #242B33;
+}
+#adoption .adoption .buttons button:hover {
+  box-shadow: 0 0 20px #242B33;
+  background-color: #0078CD;
+}
+#adoption .adoption .buttons a:hover {
+  box-shadow: 0 0 20px #242B33;
+  background-color: #c2a368;
+  border: 1px solid #c2a368;
 }
 #adoption .adoption .buttons a {
   color: #002A48;
@@ -1210,6 +1224,45 @@ p {
   line-height: 24px; /* 150% */
 }
 
+.preload {
+  background: #F1D092;
+  background: linear-gradient(45deg, rgb(169, 228, 126) 0%, rgb(0, 167, 231) 25%, rgb(247, 219, 167) 59%, rgb(192, 58, 143) 92%);
+  width: 100%;
+  height: 100vh;
+  z-index: 10000;
+  position: fixed;
+  animation: preload 3s forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes preload {
+  0% {
+    display: flex;
+  }
+  100% {
+    display: none;
+  }
+}
+
+.spinner {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border-top: 10px solid #002A48;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(660deg);
+    opacity: 0;
+  }
+}
 @media (max-width: 1440px) {
   .container {
     width: 738px;

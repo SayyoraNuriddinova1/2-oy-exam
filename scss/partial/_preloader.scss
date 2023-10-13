@@ -1,0 +1,48 @@
+.preload {
+    background:#F1D092;
+    background: linear-gradient(
+    45deg,
+    rgb(169, 228, 126) 0%,
+    rgba(0, 167, 231, 1) 25%,
+    rgba(247, 219, 167, 1) 59%,
+    rgb(192, 58, 143) 92%
+    );
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    position: fixed;
+    animation: preload 3s forwards;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    
+    @keyframes preload {
+        0% {
+            display:flex;
+        }
+        100% {
+            display: none;
+        }
+    }
+}
+
+.spinner {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border-top: 10px solid $dark-blue;
+    animation: spin 3s linear infinite;
+    
+}
+
+@keyframes spin {
+    0%{
+        transform:rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform:rotate(660deg);
+        opacity: 0;
+    }
+}
+

@@ -36,6 +36,15 @@
             color: $neutral-color-80;
             
         }
+        .buttons button:hover {
+            box-shadow: 0 0 20px $neutral-color-80;
+            background-color: $light-blue;
+        }
+         .buttons a:hover {
+            box-shadow: 0 0 20px $neutral-color-80;
+            background-color:#c2a368;
+            border:1px solid #c2a368;
+        }
         
         
         .buttons a {
